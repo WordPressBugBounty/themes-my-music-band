@@ -4,7 +4,7 @@ Theme URI: https://catchthemes.com/themes/my-music-band/
 Author: Catch Themes
 Author URI: https://catchthemes.com/
 Description: My Music Band is simple, clean, responsive and easy to use Music WordPress Theme which has been specially designed, prioritizing the musicians and music bands to promote their music. The theme is deeply engaging and attractive, powerful and unique, stylish and flexible; a perfect solution for music related websites.  It mainly focuses on creating an elegant personal website for the musicians in only a matter of times. My Music Band, a music WordPress theme is fully responsive and resizes fittingly to all devices. Your visitors can access your website regardless of the device or screen sizes they prefer to use. This theme comes with an array of crucial features—such as featured slider, featured content, playlist, hero content, portfolio, color options, and more—to keep your music website on the forefront. With all the incredible features integrated into My Music Band, your website will surely provide a musical vibe to your audiences making it more engaging and visually aesthetic. So, if you like music in any way, you need to check out My Music Band! Check out Theme Instructions at https://catchthemes.com/themes/my-music-band/#theme-instructions, Support at https://catchthemes.com/support/ and Demo at https://catchthemes.com/demo/my-music-band/
-Version: 2.4.7
+Version: 2.4.8
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 5.6
@@ -722,7 +722,7 @@ big {
 
 .social-navigation a[href^="mailto:"]:before,
 .site-header-right li.contact-email:before,
-.social-navigation a[href$="/feed/"]:before,
+.social-navigation a[href$="/feed"]:before,
 .social-navigation a[href^="tel:"]:before,
 .site-header-right li.contact-phone:before {
 	font-family: 'Font Awesome 6 Free';
@@ -1898,6 +1898,10 @@ body.menu-open {
 }
 
 .social-navigation a[href*="twitter.com"]:before {
+    content: "\f099";
+}
+
+.social-navigation a[href*="x.com"]:before  {
     content: "\e61b";
 }
 
@@ -1933,13 +1937,18 @@ body.menu-open {
     content: "\f879";
 }
 
-.social-navigation a[href$="/feed/"]:before {
+.social-navigation a[href$="/feed"]:before {
     content: "\f09e";
 }
 
 .social-navigation a[href*="discord.com"]:before,
 .social-navigation a[href*="discord.gg"]:before {
     content: "\f392";
+}
+
+.social-navigation a[href*="bsky.app"]:before,
+.social-navigation a[href*="bsky.social"]:before {
+    content: "\e671";
 }
 
 

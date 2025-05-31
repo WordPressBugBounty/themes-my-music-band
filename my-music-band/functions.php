@@ -435,7 +435,7 @@ if ( ! function_exists( 'my_music_band_scripts' ) ) :
 		wp_enqueue_style( 'my-music-band-block-style', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/blocks.css', array( 'my-music-band-style' ), '1.0' );
 
 		// Font Awesome.
-		wp_enqueue_style( 'font-awesome', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/font-awesome/css/all.min.css', array(), '6.4.2', 'all' );
+		wp_enqueue_style( 'font-awesome', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/font-awesome/css/all.min.css', array(), '6.7.2', 'all' );
 
 		// Load the html5 shiv.
 		wp_enqueue_script( 'my-music-band-html5',  get_theme_file_uri( 'assets/js/html5.min.js' ), array(), '3.7.3' );

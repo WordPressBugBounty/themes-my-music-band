@@ -43,6 +43,10 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
 
+= 2.4.8 (Released: May 31, 2025) =
+* Added: Bluesky, Twitter X, Feed Icon
+* Updated: Font Awesome 6.7.2
+
 = 2.4.7 (Released: May 31, 2025) =
 * Bug Fixed: Error function _load_textdomain_just_in_time
 * Updated: WordPress 6.8 ready
