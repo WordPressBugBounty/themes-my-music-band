@@ -1,8 +1,8 @@
 === My Music Band ===
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, holiday, portfolio
-Requires at least: 5.6
-Tested up to: 6.5
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -42,6 +42,10 @@ You can check our Theme Demo at https://catchthemes.com/demo/my-music-band/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 2.4.7 (Released: May 31, 2025) =
+* Bug Fixed: Error function _load_textdomain_just_in_time
+* Updated: WordPress 6.8 ready
 
 = 2.4.6 (Released: June 06, 2024) =
 * Bug Fixed: Testimonials Custom Post Type heading and subheading display issue
@@ -209,7 +213,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-My Music Band WordPress Theme, Copyright 2012-2023 Catchthemes.com
+My Music Band WordPress Theme, Copyright 2012-2025 Catchthemes.com
 My Music Band is distributed under the terms of the GNU General Public License v2
 
 == Resources ==

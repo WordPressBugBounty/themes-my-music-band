@@ -1,11 +1,11 @@
-# <!=Copyright (C) 2022 Catch Themes
+# <!=Copyright (C) 2025 Catch Themes
 # This file is distributed under the GNU General Public License v2 or later.=!>
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: My Music Band\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2024-06-06 10:43+0545\n"
+"POT-Creation-Date: 2025-05-31 12:25+0545\n"
 "PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -15,12 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
-"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
-"esc_html_x:1,2c\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:25 inc/custom-header.php:292
@@ -156,30 +155,28 @@ msgid "Instagram"
 msgstr ""
 
 #: functions.php:346
-msgid ""
-"Appears above footer. This sidebar is only for Widget from plugin Catch "
-"Instagram Feed Gallery Widget and Catch Instagram Feed Gallery Widget Pro"
+msgid "Appears above footer. This sidebar is only for Instagram Feed Gallery\n"
 msgstr ""
 
-#: functions.php:374
+#: functions.php:375
 msgctxt "Muli: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:380
+#: functions.php:381
 msgctxt "Playfair Display: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:462
+#: functions.php:463
 msgid "expand child menu"
 msgstr ""
 
-#: functions.php:463
+#: functions.php:464
 msgid "collapse child menu"
 msgstr ""
 
-#: functions.php:539 functions.php:563 functions.php:591
+#: functions.php:540 functions.php:564 functions.php:592
 msgid "Continue reading"
 msgstr ""
 

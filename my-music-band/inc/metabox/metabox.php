@@ -15,7 +15,7 @@
  *
  * @since My Music Band 0.1
  */
-if ( ! class_exists( 'My_Music_Band_Metabox' ) ): 
+if ( ! class_exists( 'My_Music_Band_Metabox' ) ):
 class My_Music_Band_Metabox {
 	private $meta_box;
 
@@ -83,12 +83,12 @@ class My_Music_Band_Metabox {
 		<select class="widefat" name="my-music-band-header-image" id="my-music-band-header-image">
 			 <?php
 				$meta_value = get_post_meta( $post->ID, 'my-music-band-header-image', true );
-				
+
 				if ( empty( $meta_value ) ){
 					$meta_value='default';
 				}
-				
-				foreach ( $header_image_options as $field =>$label ) {	
+
+				foreach ( $header_image_options as $field =>$label ) {
 				?>
 					<option value="<?php echo esc_attr( $field ); ?>" <?php selected( $meta_value, $field ); ?>><?php echo esc_html( $label ); ?></option>
 				<?php

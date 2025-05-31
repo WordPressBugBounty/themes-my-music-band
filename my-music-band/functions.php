@@ -343,13 +343,14 @@ function my_music_band_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Instagram', 'my-music-band' ),
 		'id'            => 'sidebar-instagram',
-		'description'   => esc_html__( 'Appears above footer. This sidebar is only for Widget from plugin Catch Instagram Feed Gallery Widget and Catch Instagram Feed Gallery Widget Pro', 'my-music-band' ),
+		'description'   => esc_html__( 'Appears above footer. This sidebar is only for Instagram Feed Gallery
+', 'my-music-band' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-	
+
 }
 endif;
 add_action( 'widgets_init', 'my_music_band_widgets_init' );
@@ -397,9 +398,9 @@ if ( ! function_exists( 'my_music_band_fonts_url' ) ) :
 
 			$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 		}
-		
+
 		require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
-		
+
 		$fonts_url = wptt_get_webfont_url( $fonts_url );
 
 		return esc_url_raw( $fonts_url );
@@ -640,7 +641,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 /**
  * Load Metabox
  */
-require get_template_directory() . '/inc/metabox/metabox.php';
+function my_music_band_metabox() {
+	require( get_template_directory() . '/inc/metabox/metabox.php' );
+}
+add_action( 'after_setup_theme', 'my_music_band_metabox' );
 
 /**
  * Load Social Widgets
