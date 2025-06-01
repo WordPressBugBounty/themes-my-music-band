@@ -43,6 +43,9 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
 
+= 2.4.9 (Released: June 01, 2025) =
+* Bud Fixed: Primary menu search toggle selected CSS
+
 = 2.4.8 (Released: May 31, 2025) =
 * Added: Bluesky, Twitter X, Feed Icon
 * Updated: Font Awesome 6.7.2

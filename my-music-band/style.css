@@ -4,7 +4,7 @@ Theme URI: https://catchthemes.com/themes/my-music-band/
 Author: Catch Themes
 Author URI: https://catchthemes.com/
 Description: My Music Band is simple, clean, responsive and easy to use Music WordPress Theme which has been specially designed, prioritizing the musicians and music bands to promote their music. The theme is deeply engaging and attractive, powerful and unique, stylish and flexible; a perfect solution for music related websites.  It mainly focuses on creating an elegant personal website for the musicians in only a matter of times. My Music Band, a music WordPress theme is fully responsive and resizes fittingly to all devices. Your visitors can access your website regardless of the device or screen sizes they prefer to use. This theme comes with an array of crucial features—such as featured slider, featured content, playlist, hero content, portfolio, color options, and more—to keep your music website on the forefront. With all the incredible features integrated into My Music Band, your website will surely provide a musical vibe to your audiences making it more engaging and visually aesthetic. So, if you like music in any way, you need to check out My Music Band! Check out Theme Instructions at https://catchthemes.com/themes/my-music-band/#theme-instructions, Support at https://catchthemes.com/support/ and Demo at https://catchthemes.com/demo/my-music-band/
-Version: 2.4.8
+Version: 2.4.9
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 5.6
@@ -751,17 +751,18 @@ big {
 	content: "\f0c9";
 }
 
-.menu-toggle.selected:before,
-.comment-reply-title small a:before {
-	content: "\f00d";
-}
-
 .search-toggle:before,
 .search-submit:before,
 #primary-search-wrapper .menu-toggle:before  {
 	content: "\f002";
 	font-size: 15px;
 	font-size: 0.9375rem;
+}
+
+.menu-toggle.selected:before,
+#primary-search-wrapper .menu-toggle.selected:before,
+.comment-reply-title small a:before {
+	content: "\f00d";
 }
 
 .dropdown-toggle:after {
