@@ -34,7 +34,7 @@ function my_music_band_mejs_add_container_class() {
 	<?php
 }
 endif;
-add_action( 'wp_print_footer_scripts', 'my_music_band_mejs_add_container_class' );
+add_action( 'wp_print_footer_scripts', 'my_music_band_mejs_add_container_class', 11 );
 
 if ( ! function_exists( 'my_music_band_setup' ) ) :
 	/**
@@ -436,10 +436,6 @@ if ( ! function_exists( 'my_music_band_scripts' ) ) :
 
 		// Font Awesome.
 		wp_enqueue_style( 'font-awesome', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/font-awesome/css/all.min.css', array(), '6.7.2', 'all' );
-
-		// Load the html5 shiv.
-		wp_enqueue_script( 'my-music-band-html5',  get_theme_file_uri( 'assets/js/html5.min.js' ), array(), '3.7.3' );
-		wp_script_add_data( 'my-music-band-html5', 'conditional', 'lt IE 9' );
 
 		wp_enqueue_script( 'my-music-band-skip-link-focus-fix', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/js/skip-link-focus-fix.min.js', array(), '201800703', true );
 

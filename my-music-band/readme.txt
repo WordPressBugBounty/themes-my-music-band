@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, holiday, portfolio
 Requires at least: 5.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -43,8 +43,22 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
 
+= 2.6.2 (Released: January 15, 2026) =
+* Added: Support for WhatsApp icon
+
+= 2.6 (Released: January 13, 2026) =
+* Added: Threads, Telegram, Snapchat and WhatsApp icons
+* Updated: Feed icon
+
+= 2.5.1 (Released: December 09, 2025) =
+* Bug Fixed: Playlist issue after WordPress 6.9 update
+
+= 2.5 (Released: December 08, 2025) =
+* Bug Fixed: Deprecated Function WP_Dependencies-add_data() warning after WordPress update 6.9
+* Updated: WordPress 6.9 ready
+
 = 2.4.9 (Released: June 01, 2025) =
-* Bud Fixed: Primary menu search toggle selected CSS
+* Bug Fixed: Primary menu search toggle selected CSS
 
 = 2.4.8 (Released: May 31, 2025) =
 * Added: Bluesky, Twitter X, Feed Icon
