@@ -1,11 +1,11 @@
-# <!=Copyright (C) 2025 Catch Themes
+# <!=Copyright (C) 2026 Catch Themes
 # This file is distributed under the GNU General Public License v2 or later.=!>
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: My Music Band\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2026-01-13 16:32+0545\n"
+"POT-Creation-Date: 2026-05-25 12:52+0545\n"
 "PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:25 inc/custom-header.php:292
@@ -1100,7 +1100,7 @@ msgid "For Testimonial Options for this Theme, go %1$shere%2$s"
 msgstr ""
 
 #: inc/customizer/testimonial.php:32
-#: template-parts/testimonial/display-testimonial.php:19
+#: template-parts/testimonial/display-testimonial.php:22
 msgid "Testimonials"
 msgstr ""
 
@@ -1240,12 +1240,12 @@ msgid "Upgrade Now"
 msgstr ""
 
 #: inc/featured-slider.php:36
-#: template-parts/testimonial/display-testimonial.php:60
+#: template-parts/testimonial/display-testimonial.php:63
 msgid "Previous Slide"
 msgstr ""
 
 #: inc/featured-slider.php:37
-#: template-parts/testimonial/display-testimonial.php:63
+#: template-parts/testimonial/display-testimonial.php:66
 msgid "Next Slide"
 msgstr ""
 
@@ -1532,10 +1532,10 @@ msgstr ""
 msgid "More Posts"
 msgstr ""
 
-#: template-parts/testimonial/display-testimonial.php:60
+#: template-parts/testimonial/display-testimonial.php:63
 msgid "Previous"
 msgstr ""
 
-#: template-parts/testimonial/display-testimonial.php:63
+#: template-parts/testimonial/display-testimonial.php:66
 msgid "Next"
 msgstr ""
